@@ -97,6 +97,23 @@ console.log( isCircularArray( null ) );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-circular`][@stdlib/assert/is-circular]: test if an object-like value contains a circular reference.
+-   [`@stdlib/assert/is-circular-plain-object`][@stdlib/assert/is-circular-plain-object]: test if a value is a plain object containing a circular reference.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -151,6 +168,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-circular-array/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-circular]: https://github.com/stdlib-js/assert-is-circular
+
+[@stdlib/assert/is-circular-plain-object]: https://github.com/stdlib-js/assert-is-circular-plain-object
+
+<!-- </related-links> -->
 
 </section>
 
