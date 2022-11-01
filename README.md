@@ -24,14 +24,30 @@ limitations under the License.
 
 > Test if a value is an array containing a circular reference.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-circular-array
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import isCircularArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular-array@esm/index.mjs';
+var isCircularArray = require( '@stdlib/assert-is-circular-array' );
 ```
 
 #### isCircularArray( value )
@@ -63,13 +79,8 @@ bool = isCircularArray( arr );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import isCircularArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular-array@esm/index.mjs';
+```javascript
+var isCircularArray = require( '@stdlib/assert-is-circular-array' );
 
 var arr = [ 1, 2, 3 ];
 arr.push( arr );
@@ -88,10 +99,6 @@ console.log( isCircularArray( [] ) );
 
 console.log( isCircularArray( null ) );
 // => false
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -122,7 +129,7 @@ console.log( isCircularArray( null ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -184,9 +191,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-circular]: https://github.com/stdlib-js/assert-is-circular/tree/esm
+[@stdlib/assert/is-circular]: https://github.com/stdlib-js/assert-is-circular
 
-[@stdlib/assert/is-circular-plain-object]: https://github.com/stdlib-js/assert-is-circular-plain-object/tree/esm
+[@stdlib/assert/is-circular-plain-object]: https://github.com/stdlib-js/assert-is-circular-plain-object
 
 <!-- </related-links> -->
 
