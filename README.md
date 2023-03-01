@@ -24,38 +24,30 @@ limitations under the License.
 
 > Test if a value is an array containing a circular reference.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-circular-array
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-isCircularArray = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular-array@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var isCircularArray = require( 'path/to/vendor/umd/assert-is-circular-array/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular-array@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.isCircularArray;
-})();
-</script>
+var isCircularArray = require( '@stdlib/assert-is-circular-array' );
 ```
 
 #### isCircularArray( value )
@@ -87,13 +79,8 @@ bool = isCircularArray( arr );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular-array@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var isCircularArray = require( '@stdlib/assert-is-circular-array' );
 
 var arr = [ 1, 2, 3 ];
 arr.push( arr );
@@ -112,11 +99,6 @@ console.log( isCircularArray( [] ) );
 
 console.log( isCircularArray( null ) );
 // => false
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -131,8 +113,8 @@ console.log( isCircularArray( null ) );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/assert/is-circular`][@stdlib/assert/is-circular]</span><span class="delimiter">: </span><span class="description">test if an object-like value contains a circular reference.</span>
--   <span class="package-name">[`@stdlib/assert/is-circular-plain-object`][@stdlib/assert/is-circular-plain-object]</span><span class="delimiter">: </span><span class="description">test if a value is a plain object containing a circular reference.</span>
+-   <span class="package-name">[`@stdlib/assert-is-circular`][@stdlib/assert/is-circular]</span><span class="delimiter">: </span><span class="description">test if an object-like value contains a circular reference.</span>
+-   <span class="package-name">[`@stdlib/assert-is-circular-plain-object`][@stdlib/assert/is-circular-plain-object]</span><span class="delimiter">: </span><span class="description">test if a value is a plain object containing a circular reference.</span>
 
 </section>
 
@@ -209,9 +191,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-circular]: https://github.com/stdlib-js/assert-is-circular/tree/umd
+[@stdlib/assert/is-circular]: https://github.com/stdlib-js/assert-is-circular
 
-[@stdlib/assert/is-circular-plain-object]: https://github.com/stdlib-js/assert-is-circular-plain-object/tree/umd
+[@stdlib/assert/is-circular-plain-object]: https://github.com/stdlib-js/assert-is-circular-plain-object
 
 <!-- </related-links> -->
 
