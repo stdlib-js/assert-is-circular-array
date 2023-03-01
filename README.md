@@ -113,8 +113,8 @@ console.log( isCircularArray( null ) );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/assert/is-circular`][@stdlib/assert/is-circular]</span><span class="delimiter">: </span><span class="description">test if an object-like value contains a circular reference.</span>
--   <span class="package-name">[`@stdlib/assert/is-circular-plain-object`][@stdlib/assert/is-circular-plain-object]</span><span class="delimiter">: </span><span class="description">test if a value is a plain object containing a circular reference.</span>
+-   <span class="package-name">[`@stdlib/assert-is-circular`][@stdlib/assert/is-circular]</span><span class="delimiter">: </span><span class="description">test if an object-like value contains a circular reference.</span>
+-   <span class="package-name">[`@stdlib/assert-is-circular-plain-object`][@stdlib/assert/is-circular-plain-object]</span><span class="delimiter">: </span><span class="description">test if a value is a plain object containing a circular reference.</span>
 
 </section>
 
