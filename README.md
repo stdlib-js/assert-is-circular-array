@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isCircularArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular-array@deno/mod.js';
+import isCircularArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular-array@v0.2.0-deno/mod.js';
 ```
 
 #### isCircularArray( value )
@@ -75,7 +75,7 @@ bool = isCircularArray( arr );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isCircularArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular-array@deno/mod.js';
+import isCircularArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular-array@v0.2.0-deno/mod.js';
 
 var arr = [ 1, 2, 3 ];
 arr.push( arr );
