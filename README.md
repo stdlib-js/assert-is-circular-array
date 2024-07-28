@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isCircularArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular-array@esm/index.mjs';
+import isCircularArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular-array@v0.2.2-esm/index.mjs';
 ```
 
 #### isCircularArray( value )
@@ -80,7 +80,7 @@ bool = isCircularArray( arr );
 <body>
 <script type="module">
 
-import isCircularArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular-array@esm/index.mjs';
+import isCircularArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular-array@v0.2.2-esm/index.mjs';
 
 var arr = [ 1, 2, 3 ];
 arr.push( arr );
