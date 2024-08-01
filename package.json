@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/assert-is-array": "^0.2.2",
-    "@stdlib/assert-is-circular": "^0.2.1"
+    "@stdlib/assert-is-circular": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
